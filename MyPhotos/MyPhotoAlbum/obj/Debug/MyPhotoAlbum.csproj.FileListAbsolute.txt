@@ -1,0 +1,6 @@
+C:\Users\USER\Documents\GitHub\photo-tool-thanhtrang_haiyen\MyPhotos\MyPhotoAlbum\bin\Debug\MyPhotoAlbum.dll
+C:\Users\USER\Documents\GitHub\photo-tool-thanhtrang_haiyen\MyPhotos\MyPhotoAlbum\bin\Debug\MyPhotoAlbum.pdb
+C:\Users\USER\Documents\GitHub\photo-tool-thanhtrang_haiyen\MyPhotos\MyPhotoAlbum\obj\Debug\MyPhotoAlbum.csprojResolveAssemblyReference.cache
+C:\Users\USER\Documents\GitHub\photo-tool-thanhtrang_haiyen\MyPhotos\MyPhotoAlbum\obj\Debug\MyPhotoAlbum.csproj.CoreCompileInputs.cache
+C:\Users\USER\Documents\GitHub\photo-tool-thanhtrang_haiyen\MyPhotos\MyPhotoAlbum\obj\Debug\MyPhotoAlbum.dll
+C:\Users\USER\Documents\GitHub\photo-tool-thanhtrang_haiyen\MyPhotos\MyPhotoAlbum\obj\Debug\MyPhotoAlbum.pdb
