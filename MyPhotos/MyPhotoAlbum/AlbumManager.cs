@@ -75,7 +75,7 @@ namespace Manning.MyPhotoAlbum
             _album = AlbumStorage.ReadAlbum(name);
             if (Album.Count > 0)
                 Index = 0;
-            throw new NotImplementedException();
+            
         }
 
         public Photograph Current
