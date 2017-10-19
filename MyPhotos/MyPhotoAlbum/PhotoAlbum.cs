@@ -19,7 +19,7 @@ namespace Manning.MyPhotoAlbum
                 foreach (Photograph p in this)
                     if (p.HasChanged) return true;
 
-                return true;
+                return false;
             }
             set
             {
