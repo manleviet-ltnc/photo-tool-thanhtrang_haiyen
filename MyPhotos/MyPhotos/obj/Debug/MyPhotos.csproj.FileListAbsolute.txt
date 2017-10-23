@@ -38,3 +38,5 @@ C:\Users\thuchanh\Documents\GitHub\photo-tool-thanhtrang_haiyen\MyPhotos\MyPhoto
 C:\Users\thuchanh\Documents\GitHub\photo-tool-thanhtrang_haiyen\MyPhotos\MyPhotos\obj\Debug\MyPhotos.csproj.CoreCompileInputs.cache
 C:\Users\thuchanh\Documents\GitHub\photo-tool-thanhtrang_haiyen\MyPhotos\MyPhotos\obj\Debug\MyPhotos.exe
 C:\Users\thuchanh\Documents\GitHub\photo-tool-thanhtrang_haiyen\MyPhotos\MyPhotos\obj\Debug\MyPhotos.pdb
+C:\Users\USER\Documents\GitHub\photo-tool-thanhtrang_haiyen\MyPhotos\MyPhotos\bin\Debug\MyPhotoControls.dll
+C:\Users\USER\Documents\GitHub\photo-tool-thanhtrang_haiyen\MyPhotos\MyPhotos\bin\Debug\MyPhotoControls.pdb

@@ -163,14 +163,29 @@ namespace MyPhotos
             if (dlg.ShowDialog() == DialogResult.OK)
             {
                 string path = dlg.FileName;
+                string pwd = null;
+
+                // Get password if encrypted
+                if (AlbumStorage.IsEncrypted(path))
+                {
+                    using (AlbumPasswordDialog pwdDlg = new AlbumPasswordDialog())
+                    {
+                        pwdDlg.Album = path;
+                        if (pwdDlg.ShowDialog() != DialogResult.OK)
+                            return; // Open cancelled
+
+                        pwd = pwdDlg.Password;                      
+                    }
+                }
+
                 if (!SaveAndCloseAlbum())
                     return;
 
                 try
                 {
                     // Open the new album
-                    
-                    Manager = new AlbumManager(path);
+
+                    Manager = new AlbumManager(path, pwd);
                 }
                 catch(AlbumStorageException aex)
                 {
@@ -336,6 +351,7 @@ namespace MyPhotos
             mnuNext.Enabled = (Manager.Index < Manager.Album.Count - 1);
             mnuPrevious.Enabled = (Manager.Index > 0);
             mnuPhotoProps.Enabled = (Manager.Current != null);
+            mnuAlbumProps.Enabled = (Manager.Album != null);
         }
         protected override void OnFormClosing(FormClosingEventArgs e)
         {
@@ -386,6 +402,68 @@ namespace MyPhotos
                 if (dlg.ShowDialog() == DialogResult.OK)
                     DisplayAlbum();
             }
+        }
+
+        private void mnuAlbumProps_Click(object sender, EventArgs e)
+        {
+            if (Manager.Album == null)
+                return;
+
+            using (AlbumEditDialog dlg = new AlbumEditDialog(Manager))
+            {
+                if (dlg.ShowDialog() == DialogResult.OK)
+                    DisplayAlbum();
+            }
+        }
+
+        protected override void OnKeyPress(KeyPressEventArgs e)
+        {
+            switch (e.KeyChar)
+            {
+                case '+':
+                    mnuNext.PerformClick();
+                    e.Handled = true;
+                    break;
+                case '-':
+                    mnuPrevious.PerformClick();
+                    e.Handled = true;
+                    break;
+            }
+            base.OnKeyPress(e);
+        }
+
+        protected override void OnKeyDown(KeyEventArgs e)
+        {
+            switch (e.KeyCode)
+            {
+                case Keys.PageUp:
+                    mnuPrevious.PerformClick();
+                    e.Handled = true;
+                    break;
+                case Keys.PageDown:
+                    mnuNext.PerformClick();
+                    e.Handled = true;
+                    break;
+            }
+            base.OnKeyDown(e);
+        }
+
+        private const int WM_KEYDOWN = 0x100;
+        protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
+        {
+            if (msg.Msg == WM_KEYDOWN)
+            {
+                switch (keyData)
+                {
+                    case Keys.Tab:
+                        mnuNext.PerformClick();
+                        return true;
+                    case Keys.Shift | Keys.Tab:
+                        mnuPrevious.PerformClick();
+                        return true;
+                }
+            }
+            return base.ProcessCmdKey(ref msg, keyData);
         }
     }
 }
