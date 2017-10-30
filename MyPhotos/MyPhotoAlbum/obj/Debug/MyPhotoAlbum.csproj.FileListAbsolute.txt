@@ -1,18 +1,12 @@
-C:\Users\USER\Documents\GitHub\photo-tool-thanhtrang_haiyen\MyPhotos\MyPhotoAlbum\bin\Debug\MyPhotoAlbum.dll
-C:\Users\USER\Documents\GitHub\photo-tool-thanhtrang_haiyen\MyPhotos\MyPhotoAlbum\bin\Debug\MyPhotoAlbum.pdb
-C:\Users\USER\Documents\GitHub\photo-tool-thanhtrang_haiyen\MyPhotos\MyPhotoAlbum\obj\Debug\MyPhotoAlbum.csprojResolveAssemblyReference.cache
-C:\Users\USER\Documents\GitHub\photo-tool-thanhtrang_haiyen\MyPhotos\MyPhotoAlbum\obj\Debug\MyPhotoAlbum.csproj.CoreCompileInputs.cache
-C:\Users\USER\Documents\GitHub\photo-tool-thanhtrang_haiyen\MyPhotos\MyPhotoAlbum\obj\Debug\MyPhotoAlbum.dll
-C:\Users\USER\Documents\GitHub\photo-tool-thanhtrang_haiyen\MyPhotos\MyPhotoAlbum\obj\Debug\MyPhotoAlbum.pdb
-C:\Users\Au Zu\Documents\photo-tool-thanhtrang_haiyen\MyPhotos\MyPhotoAlbum\bin\Debug\MyPhotoAlbum.dll
-C:\Users\Au Zu\Documents\photo-tool-thanhtrang_haiyen\MyPhotos\MyPhotoAlbum\bin\Debug\MyPhotoAlbum.pdb
-C:\Users\Au Zu\Documents\photo-tool-thanhtrang_haiyen\MyPhotos\MyPhotoAlbum\obj\Debug\MyPhotoAlbum.csprojResolveAssemblyReference.cache
-C:\Users\Au Zu\Documents\photo-tool-thanhtrang_haiyen\MyPhotos\MyPhotoAlbum\obj\Debug\MyPhotoAlbum.csproj.CoreCompileInputs.cache
-C:\Users\Au Zu\Documents\photo-tool-thanhtrang_haiyen\MyPhotos\MyPhotoAlbum\obj\Debug\MyPhotoAlbum.dll
-C:\Users\Au Zu\Documents\photo-tool-thanhtrang_haiyen\MyPhotos\MyPhotoAlbum\obj\Debug\MyPhotoAlbum.pdb
-C:\Users\thuchanh\Documents\GitHub\photo-tool-thanhtrang_haiyen\MyPhotos\MyPhotoAlbum\bin\Debug\MyPhotoAlbum.dll
-C:\Users\thuchanh\Documents\GitHub\photo-tool-thanhtrang_haiyen\MyPhotos\MyPhotoAlbum\bin\Debug\MyPhotoAlbum.pdb
-C:\Users\thuchanh\Documents\GitHub\photo-tool-thanhtrang_haiyen\MyPhotos\MyPhotoAlbum\obj\Debug\MyPhotoAlbum.csprojResolveAssemblyReference.cache
-C:\Users\thuchanh\Documents\GitHub\photo-tool-thanhtrang_haiyen\MyPhotos\MyPhotoAlbum\obj\Debug\MyPhotoAlbum.csproj.CoreCompileInputs.cache
-C:\Users\thuchanh\Documents\GitHub\photo-tool-thanhtrang_haiyen\MyPhotos\MyPhotoAlbum\obj\Debug\MyPhotoAlbum.dll
-C:\Users\thuchanh\Documents\GitHub\photo-tool-thanhtrang_haiyen\MyPhotos\MyPhotoAlbum\obj\Debug\MyPhotoAlbum.pdb
+D:\TrangC\WindowsService1\photo-tool-manleviet-master\MyPhotos\MyPhotoAlbum\bin\Debug\MyPhotoAlbum.dll
+D:\TrangC\WindowsService1\photo-tool-manleviet-master\MyPhotos\MyPhotoAlbum\bin\Debug\MyPhotoAlbum.pdb
+D:\TrangC\WindowsService1\photo-tool-manleviet-master\MyPhotos\MyPhotoAlbum\obj\Debug\MyPhotoAlbum.csprojResolveAssemblyReference.cache
+D:\TrangC\WindowsService1\photo-tool-manleviet-master\MyPhotos\MyPhotoAlbum\obj\Debug\MyPhotoAlbum.csproj.CoreCompileInputs.cache
+D:\TrangC\WindowsService1\photo-tool-manleviet-master\MyPhotos\MyPhotoAlbum\obj\Debug\MyPhotoAlbum.dll
+D:\TrangC\WindowsService1\photo-tool-manleviet-master\MyPhotos\MyPhotoAlbum\obj\Debug\MyPhotoAlbum.pdb
+C:\Users\Au Zu\Documents\photo-tool-manleviet-master\MyPhotos\MyPhotoAlbum\bin\Debug\MyPhotoAlbum.dll
+C:\Users\Au Zu\Documents\photo-tool-manleviet-master\MyPhotos\MyPhotoAlbum\bin\Debug\MyPhotoAlbum.pdb
+C:\Users\Au Zu\Documents\photo-tool-manleviet-master\MyPhotos\MyPhotoAlbum\obj\Debug\MyPhotoAlbum.csprojResolveAssemblyReference.cache
+C:\Users\Au Zu\Documents\photo-tool-manleviet-master\MyPhotos\MyPhotoAlbum\obj\Debug\MyPhotoAlbum.csproj.CoreCompileInputs.cache
+C:\Users\Au Zu\Documents\photo-tool-manleviet-master\MyPhotos\MyPhotoAlbum\obj\Debug\MyPhotoAlbum.dll
+C:\Users\Au Zu\Documents\photo-tool-manleviet-master\MyPhotos\MyPhotoAlbum\obj\Debug\MyPhotoAlbum.pdb

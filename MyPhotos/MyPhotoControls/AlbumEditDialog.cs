@@ -7,9 +7,9 @@ using System.Text;
 using System.Windows.Forms;
 using Manning.MyPhotoAlbum;
 
-namespace Maning.MyPhotoControls
+namespace Manning.MyPhotoControls
 {
-    public partial class AlbumEditDialog : Maning.MyPhotoControls.BaseEditDialog
+    public partial class AlbumEditDialog : Manning.MyPhotoControls.BaseEditDialog
     {
         private AlbumManager _manager;
         private AlbumManager Manager
@@ -20,7 +20,7 @@ namespace Maning.MyPhotoControls
         public AlbumEditDialog(AlbumManager mgr)
         {
             if (mgr == null)
-                throw new ArgumentNullException("AlbumManager cannot be null");
+                throw new ArgumentException("AlbumManager cannot be null");
 
             InitializeComponent();
 
@@ -138,8 +138,7 @@ namespace Maning.MyPhotoControls
             if (txtConfirm.Text == txtPassword.Text)
                 errorProvider1.SetError(txtConfirm, "");
             else
-                errorProvider1.SetError(txtConfirm, "The password and confirmation etries do not match");
-
+                errorProvider1.SetError(txtConfirm, "The password and confirmation entries do not match");
         }
     }
 }

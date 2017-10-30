@@ -7,7 +7,7 @@ using System.Windows.Forms;
 using System.ComponentModel;
 using System.Collections;
 
-namespace Maning.MyPhotoControls
+namespace Manning.MyPhotoControls
 {
     [ProvideProperty("FlybyText", typeof(ToolStripMenuItem))]
     public class FlybyTextProvider : Component, IExtenderProvider

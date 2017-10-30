@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Maning.MyPhotoControls
+namespace Manning.MyPhotoControls
 {
     public partial class BaseEditDialog : Form
     {
@@ -16,9 +16,10 @@ namespace Maning.MyPhotoControls
         {
             InitializeComponent();
         }
+
         protected virtual void ResetDialog()
         {
-            //Does nothing in base class
+            // Does nothing in base class
         }
 
         private void btnReset_Click(object sender, EventArgs e)

@@ -31,7 +31,7 @@ namespace Manning.MyPhotoAlbum
                 }
                 else
                 {
-                    // Create CryptoWrite to use as StreamWriter
+                    // Create CryptoWriter to use as StreamWriter
                     CryptoWriter cw = new CryptoWriter(path, password);
                     cw.WriteUnencryptedLine(CurrentVersion.ToString() + 'e');
                     cw.WriteLine(password);
@@ -94,7 +94,7 @@ namespace Manning.MyPhotoAlbum
                     version = cr.ReadUnencryptedLine();
                     if (!version.EndsWith("e"))
                     {
-                        // Descryption not required
+                        // Decryption not required
                         cr.Close();
                         sr = new StreamReader(path);
                         version = sr.ReadLine();
@@ -109,7 +109,7 @@ namespace Manning.MyPhotoAlbum
                 }
 
                 PhotoAlbum album = new PhotoAlbum();
-                switch (version) 
+                switch(version)
                 {
                     case "63":
                         ReadAlbumV63(sr, album);

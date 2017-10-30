@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{72D0F92D-B737-48D8-9D1B-FC8D979D12A8}</ProjectGuid>
+    <ProjectGuid>{BA28F54E-5817-4900-A0D6-621702D8E6C9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Manning.MyPhotoAlbum</RootNamespace>
@@ -46,7 +46,7 @@
     <Compile Include="CryptoReader.cs" />
     <Compile Include="CryptoTextBase.cs" />
     <Compile Include="CryptoWriter.cs" />
-    <Compile Include="imageUtility.cs" />
+    <Compile Include="ImageUtility.cs" />
     <Compile Include="PhotoAlbum.cs" />
     <Compile Include="Photograph.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

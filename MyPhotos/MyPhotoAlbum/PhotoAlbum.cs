@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Manning.MyPhotoAlbum
 {
-   public class PhotoAlbum : Collection<Photograph>, IDisposable
+    public class PhotoAlbum : Collection<Photograph>, IDisposable
     {
         public enum DescriptorOption { FileName, Caption, DateTaken }
 
@@ -32,14 +32,15 @@ namespace Manning.MyPhotoAlbum
                 HasChanged = true;
             }
         }
-
-        private string _pwd;
-        public string Password
+        public string GetDescriptorFormat()
         {
-            get { return _pwd; }
-            set
+            switch (PhotoDescriptor)
             {
-                _pwd = value;
+                case DescriptorOption.Caption: return "c";
+                case DescriptorOption.DateTaken:return "d";
+                case DescriptorOption.FileName:
+                default:
+                    return "f";
             }
         }
 
@@ -68,7 +69,7 @@ namespace Manning.MyPhotoAlbum
         {
             ClearSettings();
         }
-            
+
         public Photograph Add(string filename)
         {
             Photograph p = new Photograph(filename);

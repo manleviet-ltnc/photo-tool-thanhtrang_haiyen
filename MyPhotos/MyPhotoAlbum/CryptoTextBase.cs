@@ -11,7 +11,7 @@ namespace Manning.MyPhotoAlbum
 {
     class CryptoTextBase
     {
-        public readonly byte[] SalBytes = { 0x39, 0x38, 0x14, 0x05, 0x68 };
+        public readonly byte[] SaltBytes = { 0x39, 0x38, 0x14, 0x05, 0x68 };
 
         private byte[] _pwd;
         protected Byte[] Password { get { return _pwd; } }
@@ -29,7 +29,7 @@ namespace Manning.MyPhotoAlbum
             get { return _cs; }
             set { _cs = value; }
         }
-
+        
         public CryptoTextBase(string password)
         {
             if (password == null || password.Length == 0)
@@ -38,7 +38,7 @@ namespace Manning.MyPhotoAlbum
         }
 
         /// <summary>
-        /// Encrypt or descrypt a given string
+        /// Encrypt or decrypt a given string
         /// </summary>
         public string ProcessText(string text, bool encrypt)
         {
@@ -49,7 +49,7 @@ namespace Manning.MyPhotoAlbum
 
             // Create default symmetric algorithm for cryption
             SymmetricAlgorithm alg = SymmetricAlgorithm.Create();
-            PasswordDeriveBytes pdb = new PasswordDeriveBytes(Password, SalBytes);
+            PasswordDeriveBytes pdb = new PasswordDeriveBytes(Password, SaltBytes);
             alg.Key = pdb.GetBytes(alg.KeySize / 8);
             alg.IV = pdb.GetBytes(alg.BlockSize / 8);
             ICryptoTransform transform = encrypt ? alg.CreateEncryptor() : alg.CreateDecryptor();

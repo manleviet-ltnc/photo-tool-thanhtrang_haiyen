@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Maning.MyPhotoControls
+namespace Manning.MyPhotoControls
 {
     public partial class AlbumPasswordDialog : Form
     {
@@ -28,7 +28,7 @@ namespace Maning.MyPhotoControls
         {
             InitializeComponent();
 
-            // Define dialog results for link lables
+            // Define dialog results for link labels
             IButtonControl btn = (IButtonControl)lnkOK;
             btn.DialogResult = DialogResult.OK;
             btn = (IButtonControl)lnkCancel;
@@ -43,6 +43,6 @@ namespace Maning.MyPhotoControls
                 DialogResult = btn.DialogResult;
                 Close();
             }
-        }      
+        }
     }
 }

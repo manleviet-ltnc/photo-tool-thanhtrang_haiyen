@@ -4,9 +4,9 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E9184ADE-7B0B-45EF-B300-BF0793638054}</ProjectGuid>
+    <ProjectGuid>{ABE505EF-7036-49D3-AD12-F0C44552FFD5}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>Maning.MyPhotoControls</RootNamespace>
+    <RootNamespace>Manning.MyPhotoControls</RootNamespace>
     <AssemblyName>MyPhotoControls</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AlbumController.cs" />
     <Compile Include="AlbumEditDialog.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -79,7 +80,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MyPhotoAlbum\MyPhotoAlbum.csproj">
-      <Project>{72d0f92d-b737-48d8-9d1b-fc8d979d12a8}</Project>
+      <Project>{ba28f54e-5817-4900-a0d6-621702d8e6c9}</Project>
       <Name>MyPhotoAlbum</Name>
     </ProjectReference>
   </ItemGroup>
