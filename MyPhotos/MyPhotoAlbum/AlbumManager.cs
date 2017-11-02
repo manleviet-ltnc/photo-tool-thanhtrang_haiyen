@@ -184,7 +184,7 @@ namespace Manning.MyPhotoAlbum
         }
         public void MoveItemBackward(int index)
         {
-            if (index >= 0 || index <= Album.Count)
+            if (index <= 0)
                 throw new IndexOutOfRangeException();
 
             //Remove photo and reinsert at prior position 

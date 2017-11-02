@@ -45,6 +45,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AlbumCalendar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AlbumCalendar.Designer.cs">
+      <DependentUpon>AlbumCalendar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AlbumImage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AlbumImage.Designer.cs">
+      <DependentUpon>AlbumImage.cs</DependentUpon>
+    </Compile>
     <Compile Include="EditorForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -53,6 +65,18 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WorkerProgressDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WorkerProgressDialog.Designer.cs">
+      <DependentUpon>WorkerProgressDialog.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AlbumCalendar.resx">
+      <DependentUpon>AlbumCalendar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AlbumImage.resx">
+      <DependentUpon>AlbumImage.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="EditorForm.resx">
       <DependentUpon>EditorForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -65,6 +89,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="WorkerProgressDialog.resx">
+      <DependentUpon>WorkerProgressDialog.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -74,9 +101,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\MyPhotos\MyPhotoAlbum\MyPhotoAlbum.csproj">

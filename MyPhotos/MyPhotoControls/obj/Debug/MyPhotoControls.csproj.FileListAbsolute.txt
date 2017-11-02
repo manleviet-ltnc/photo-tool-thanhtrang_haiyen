@@ -26,3 +26,17 @@ C:\Users\Au Zu\Documents\photo-tool-manleviet-master\MyPhotos\MyPhotoControls\ob
 C:\Users\Au Zu\Documents\photo-tool-manleviet-master\MyPhotos\MyPhotoControls\obj\Debug\MyPhotoControls.csproj.CoreCompileInputs.cache
 C:\Users\Au Zu\Documents\photo-tool-manleviet-master\MyPhotos\MyPhotoControls\obj\Debug\MyPhotoControls.dll
 C:\Users\Au Zu\Documents\photo-tool-manleviet-master\MyPhotos\MyPhotoControls\obj\Debug\MyPhotoControls.pdb
+C:\Users\USER\Documents\GitHub\photo-tool-thanhtrang_haiyen\MyPhotos\MyPhotoControls\bin\Debug\MyPhotoControls.dll
+C:\Users\USER\Documents\GitHub\photo-tool-thanhtrang_haiyen\MyPhotos\MyPhotoControls\bin\Debug\MyPhotoControls.pdb
+C:\Users\USER\Documents\GitHub\photo-tool-thanhtrang_haiyen\MyPhotos\MyPhotoControls\bin\Debug\MyPhotoAlbum.dll
+C:\Users\USER\Documents\GitHub\photo-tool-thanhtrang_haiyen\MyPhotos\MyPhotoControls\bin\Debug\MyPhotoAlbum.pdb
+C:\Users\USER\Documents\GitHub\photo-tool-thanhtrang_haiyen\MyPhotos\MyPhotoControls\obj\Debug\MyPhotoControls.csprojResolveAssemblyReference.cache
+C:\Users\USER\Documents\GitHub\photo-tool-thanhtrang_haiyen\MyPhotos\MyPhotoControls\obj\Debug\Manning.MyPhotoControls.AlbumEditDialog.resources
+C:\Users\USER\Documents\GitHub\photo-tool-thanhtrang_haiyen\MyPhotos\MyPhotoControls\obj\Debug\Manning.MyPhotoControls.AlbumPasswordDialog.resources
+C:\Users\USER\Documents\GitHub\photo-tool-thanhtrang_haiyen\MyPhotos\MyPhotoControls\obj\Debug\Manning.MyPhotoControls.BaseEditDialog.resources
+C:\Users\USER\Documents\GitHub\photo-tool-thanhtrang_haiyen\MyPhotos\MyPhotoControls\obj\Debug\Manning.MyPhotoControls.PhotoEditDialog.resources
+C:\Users\USER\Documents\GitHub\photo-tool-thanhtrang_haiyen\MyPhotos\MyPhotoControls\obj\Debug\Manning.MyPhotoControls.PixelDialog.resources
+C:\Users\USER\Documents\GitHub\photo-tool-thanhtrang_haiyen\MyPhotos\MyPhotoControls\obj\Debug\MyPhotoControls.csproj.GenerateResource.Cache
+C:\Users\USER\Documents\GitHub\photo-tool-thanhtrang_haiyen\MyPhotos\MyPhotoControls\obj\Debug\MyPhotoControls.csproj.CoreCompileInputs.cache
+C:\Users\USER\Documents\GitHub\photo-tool-thanhtrang_haiyen\MyPhotos\MyPhotoControls\obj\Debug\MyPhotoControls.dll
+C:\Users\USER\Documents\GitHub\photo-tool-thanhtrang_haiyen\MyPhotos\MyPhotoControls\obj\Debug\MyPhotoControls.pdb
