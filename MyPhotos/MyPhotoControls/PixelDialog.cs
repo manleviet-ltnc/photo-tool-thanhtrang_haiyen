@@ -78,5 +78,15 @@ namespace Manning.MyPhotoControls
             // Update dialog values
             SetPixelData(x, y, c.R, c.G, c.B);
         }
+
+        protected override void OnFormClosed(FormClosedEventArgs e)
+        {
+            Visible = false;
+            if (Owner != null)
+                Owner.Activate();
+
+            base.OnFormClosed(e);
+        }
+
     }
 }

@@ -26,3 +26,18 @@ C:\Users\USER\Documents\GitHub\photo-tool-thanhtrang_haiyen\MyPhotos\MyPhotos\ob
 C:\Users\USER\Documents\GitHub\photo-tool-thanhtrang_haiyen\MyPhotos\MyPhotos\obj\Debug\MyPhotos.csproj.CoreCompileInputs.cache
 C:\Users\USER\Documents\GitHub\photo-tool-thanhtrang_haiyen\MyPhotos\MyPhotos\obj\Debug\MyPhotos.exe
 C:\Users\USER\Documents\GitHub\photo-tool-thanhtrang_haiyen\MyPhotos\MyPhotos\obj\Debug\MyPhotos.pdb
+C:\Users\Au Zu\Documents\photo-tool-thanhtrang_haiyen\MyPhotos\MyPhotos\bin\Debug\MyPhotos.exe.config
+C:\Users\Au Zu\Documents\photo-tool-thanhtrang_haiyen\MyPhotos\MyPhotos\bin\Debug\MyPhotos.exe
+C:\Users\Au Zu\Documents\photo-tool-thanhtrang_haiyen\MyPhotos\MyPhotos\bin\Debug\MyPhotos.pdb
+C:\Users\Au Zu\Documents\photo-tool-thanhtrang_haiyen\MyPhotos\MyPhotos\bin\Debug\MyPhotoAlbum.dll
+C:\Users\Au Zu\Documents\photo-tool-thanhtrang_haiyen\MyPhotos\MyPhotos\bin\Debug\MyPhotoControls.dll
+C:\Users\Au Zu\Documents\photo-tool-thanhtrang_haiyen\MyPhotos\MyPhotos\bin\Debug\MyPhotoAlbum.pdb
+C:\Users\Au Zu\Documents\photo-tool-thanhtrang_haiyen\MyPhotos\MyPhotos\bin\Debug\MyPhotoControls.pdb
+C:\Users\Au Zu\Documents\photo-tool-thanhtrang_haiyen\MyPhotos\MyPhotos\obj\Debug\MyPhotos.csprojResolveAssemblyReference.cache
+C:\Users\Au Zu\Documents\photo-tool-thanhtrang_haiyen\MyPhotos\MyPhotos\obj\Debug\MyPhotos.MainForm.resources
+C:\Users\Au Zu\Documents\photo-tool-thanhtrang_haiyen\MyPhotos\MyPhotos\obj\Debug\MyPhotos.Properties.Resources.resources
+C:\Users\Au Zu\Documents\photo-tool-thanhtrang_haiyen\MyPhotos\MyPhotos\obj\Debug\MyPhotos.csproj.GenerateResource.Cache
+C:\Users\Au Zu\Documents\photo-tool-thanhtrang_haiyen\MyPhotos\MyPhotos\obj\Debug\MyPhotos.csproj.CoreCompileInputs.cache
+C:\Users\Au Zu\Documents\photo-tool-thanhtrang_haiyen\MyPhotos\MyPhotos\obj\Debug\MyPhotos.exe
+C:\Users\Au Zu\Documents\photo-tool-thanhtrang_haiyen\MyPhotos\MyPhotos\obj\Debug\MyPhotos.pdb
+C:\Users\Au Zu\Documents\photo-tool-thanhtrang_haiyen\MyPhotos\MyPhotos\obj\Debug\MyPhotos.SlideShowDialog.resources
