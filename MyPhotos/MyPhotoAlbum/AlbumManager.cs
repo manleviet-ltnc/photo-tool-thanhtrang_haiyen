@@ -202,5 +202,26 @@ namespace Manning.MyPhotoAlbum
             Album.RemoveAt(index);
             Album.Insert(index + 1, photo);
         }
+
+        public void RenameAlbum(string newName)
+        {
+            _name = RenameAlbum(FullName, newName);
+        }
+
+        public static string RenameAlbum(string oldPath, string newName)
+        {
+            string dir = Path.GetDirectoryName(oldPath);
+            string ext = Path.GetExtension(oldPath);
+
+            string newPath = dir + Path.DirectorySeparatorChar + newName + ext;
+
+            if (File.Exists(newPath))
+            {
+                throw new ArgumentException("A file with the name " + newPath + " already exists.");
+            }
+
+            File.Move(oldPath, newPath);
+            return newPath;
+        }
     }
 }
