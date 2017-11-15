@@ -13,6 +13,28 @@ namespace Manning.MyPhotoControls
 {
     public partial class PixelDialog : Form
     {
+
+        static private Form SharedMdiParent = null;
+        static public Form GlobalMdiParent
+        {
+            get { return SharedMdiParent; }
+            set { SharedMdiParent = value; }
+        }
+        static private PixelDialog SharedInstance;
+        static public PixelDialog GlobalInstance
+        {
+            get
+            {
+                if (SharedInstance == null ||  SharedInstance.IsDisposed)
+                {
+                    SharedInstance = new PixelDialog();
+                    SharedInstance.MdiParent = GlobalMdiParent;
+                    SharedInstance.Visible = false;
+                }
+
+                return SharedInstance;
+            }
+        }
         public PixelDialog()
         {
             InitializeComponent();

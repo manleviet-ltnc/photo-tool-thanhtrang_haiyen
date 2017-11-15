@@ -16,7 +16,11 @@ namespace MyPhotos
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+#if AS_MDI_APP
+            Application.Run(new ParentForm());
+#else
             Application.Run(new MainForm());
+#endif
         }
     }
 }

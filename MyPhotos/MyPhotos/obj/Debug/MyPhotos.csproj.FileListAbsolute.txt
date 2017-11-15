@@ -41,3 +41,4 @@ C:\Users\Au Zu\Documents\photo-tool-thanhtrang_haiyen\MyPhotos\MyPhotos\obj\Debu
 C:\Users\Au Zu\Documents\photo-tool-thanhtrang_haiyen\MyPhotos\MyPhotos\obj\Debug\MyPhotos.exe
 C:\Users\Au Zu\Documents\photo-tool-thanhtrang_haiyen\MyPhotos\MyPhotos\obj\Debug\MyPhotos.pdb
 C:\Users\Au Zu\Documents\photo-tool-thanhtrang_haiyen\MyPhotos\MyPhotos\obj\Debug\MyPhotos.SlideShowDialog.resources
+C:\Users\Au Zu\Documents\photo-tool-thanhtrang_haiyen\MyPhotos\MyPhotos\obj\Debug\MyPhotos.ParentForm.resources
